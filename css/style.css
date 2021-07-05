@@ -7,18 +7,20 @@ body{
 #skipdiet{
     display: flex;
     color:#555b57;
-
+   
 }
 .skipdiet-half{
     width: 50%;
-    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-.skipdiet-half a {
+ a {
 background-image: linear-gradient(orange,salmon);
 color: white;
 padding: 15px;
 border-radius: 25px;
+text-decoration: none;
 }
 .skipdiet-half img{
     height: 80%;
@@ -30,4 +32,20 @@ h1{
 }
 span{
     color:orangered;
+}
+#aboutme{
+    display: flex;
+    color:#555b57;
+    background-image: url(/images/shapes/7.png);
+    background-repeat: no-repeat
+   
+}
+.aboutme-half{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.aboutme-half img{
+    height: 35%;
+    
 }
