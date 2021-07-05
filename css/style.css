@@ -7,14 +7,19 @@ body{
 h1{
     font-size: 40px;
     font-weight: 700;
-    line-height:18px;
+    line-height:15px;
+    margin-top:50px;
    
 }
 h2{
     color:#555b57;
+    margin-top: 100px;
 }
 span{
     color:orangered;
+}
+.button {
+    padding-top: 50px;
 }
 .button a {
     background-image: linear-gradient(orange,salmon);
