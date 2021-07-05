@@ -1,0 +1,33 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#skipdiet{
+    display: flex;
+    color:#555b57;
+
+}
+.skipdiet-half{
+    width: 50%;
+    padding: 5%;
+}
+
+.skipdiet-half a {
+background-image: linear-gradient(orange,salmon);
+color: white;
+padding: 15px;
+border-radius: 25px;
+}
+.skipdiet-half img{
+    height: 80%;
+    position:center;
+}
+h1{
+    font-size: 40px;
+   
+}
+span{
+    color:orangered;
+}
