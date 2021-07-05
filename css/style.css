@@ -29,41 +29,29 @@ span{
     text-decoration: none;
     
     }
-/* Start-lower-header */
+    img{
+        height: 100%;
+    
+    }
 #skipdiet{
     display: flex;
     color:#555b57;
     margin-top: 50px;
    
 }
-.skipdiet-half{
+.half{
     width: 50%;
+    height:600px;
     padding-left: 4%;
     padding-right: 4%;
 }
 
 
-.skipdiet-half img{
-    height: 80%;
-    position:center;
-}
-/* End-lower_header */
-
-
-/* Start-about-me */
 #aboutme{
     display: flex;
     background-image: url(/images/shapes/7.png);
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    margin-top: 50px;
    
 }
-.aboutme-half{
-    width: 50%;
-    padding-left: 4%;
-    padding-right: 4%;
-}
-.aboutme-half img{
-    height: 35%;
-  margin-top:25px;
-}
-/* End-about-me */
+
