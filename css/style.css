@@ -29,7 +29,11 @@ span{
     text-decoration: none;
     
     }
-    img{
+    #skipdiet img{
+        height: 100%;
+    
+    }
+    #aboutme img{
         height: 100%;
     
     }
@@ -54,4 +58,62 @@ span{
     margin-top: 50px;
    
 }
+#recipies-section
+{
+   padding: 30px; 
+}
+#recipies-section h2{
+    text-align: center;
+}
+#recipies-section p{
+    text-align: center;
+    width: 50%;
+    margin-left:25%;
+}
+.all-recipies{
+    display:flex;
+    color:#555b57;
+    width:100%;
+    margin-top:50px;
+  
+}
+.one-recipie{
+height:550px;
+ width:30%;
+padding-left: 70px;
+padding-right:70px;
+margin-left:50px;
+margin-right:50px;
+border-radius:15px;
+background-color: white;
+box-shadow: 10px 10px 10px 10px #aaaaaa;
+   
+}
+.one-recipie img{
+width:100%;
+margin-top:25px;
+}
+.one-recipie h3{
+    text-align: center;
+
+}
+.one-recipie a{
+    background-image: linear-gradient(orange,salmon);
+    color: white;
+    padding: 15px;
+    border-radius: 25px;
+    text-decoration: none;
+   margin-left: 55px; 
+  
+}
+
+.footer{
+    color: white;
+    background-color:black;
+    height: 200px;
+    text-align: center;
+    
+}
+
+
 
